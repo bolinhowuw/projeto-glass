@@ -33,7 +33,7 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-    font-family: fontelogo Arial, sans-serif;
+    font-family: 'fontelogo' Arial, sans-serif;
     font-size: 30pt;
     color: gray;
     padding: 0px;
@@ -90,8 +90,9 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    left: 460px;
+    top: -15px;
+    left: 570px;
+    font-size: 13px;
 }
 
 nav#menu h1 {
@@ -104,6 +105,7 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    border-radius: 50px;
 }
 
 nav#menu li:hover {
@@ -111,7 +113,7 @@ nav#menu li:hover {
 }
 
 nav#menu a {
-    color: #0e63d2;
+    color: #181818;
     text-decoration: none;
 }
 
