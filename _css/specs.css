@@ -16,7 +16,7 @@ div#interface {
 }
 header#cabecalho img#icone{
     position: absolute;
-    left: 800px;
+    left: 700px;
     top: 60px;
 }
 
@@ -33,7 +33,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 460px;
+    left: 590px;
 }
 
 nav#menu h1{
@@ -46,6 +46,7 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    border-radius: 50px;
 }
 
 nav#menu li:hover {
@@ -53,7 +54,7 @@ nav#menu li:hover {
 }
 
 nav#menu a {
-    color: #0e63d2;
+    color: #181818;
     text-decoration: none;
 }
 
